@@ -1,0 +1,39 @@
+.dashboard-mdl-container {
+  width: 600px;
+  height: 500px;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0 0 15px -2px #ccc;
+  border-radius: 12px;
+  margin: 30px auto 0 auto;
+}
+
+.dashboard-mdl-container .card-header {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  background: #c64a9c;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.dashboard-mdl-container .card-header a {
+  color: #fff;
+  font-size: 0.85rem;
+  align-self: center;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.dashboard-mdl-container .card {
+  margin: 20px 30px;
+  border-radius: 12px;
+}
+
+.dashboard-mdl-container .card-body {
+  padding: 0;
+}
+.dashboard-mdl-container .card-body table {
+  margin-bottom: 0;
+}

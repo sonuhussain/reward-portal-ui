@@ -1,0 +1,13 @@
+/* CSS for Demo Hr Scrooll  */
+
+.h-scrolling-tab .scroll-menu-arrow {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.h-scrolling-tab .arrow-prev,
+.h-scrolling-tab .arrow-next {
+  font-size: 1.9rem;
+  font-weight: lighter;
+  color: #000;
+}

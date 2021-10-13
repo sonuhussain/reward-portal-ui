@@ -1,0 +1,523 @@
+.c-dashboard .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.c-dashboard .navbar-brand {
+  font-size: 1.37rem;
+  font-weight: bold;
+}
+
+.c-dashboard-layout {
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+
+@media (min-width: 992px) {
+  .layout-nav-side {
+    display: flex;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.c-dashboard-side-navbar {
+  width: 250px;
+  /* height: 100vh; */
+  /* overflow-y: scroll; */
+  -ms-overflow-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 12px;
+  border: 1px solid #e1e1e1;
+}
+
+@media (min-width: 992px) {
+  .layout-nav-side .c-dashboard-content {
+    overflow: hidden;
+    flex: 1;
+    max-width: calc(100vw - 250px);
+  }
+}
+
+.side-navbar-top {
+  padding: 20px 20px 10px 20px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.side-navbar-top .welcome-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #394cd3;
+}
+
+.side-navbar-top .user-name {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1e1a33;
+  margin: 0 0 0.2rem 0;
+}
+
+.side-navbar-top .user-type {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #9e9999;
+}
+
+.side-navbar-top .reward-content {
+  margin-top: 40px;
+}
+
+.reward-content .reward-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9e9999;
+  margin: 0 0 0.2rem 0;
+}
+
+.reward-content .reward-point {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #23cccc;
+}
+
+.side-navbar-bottom a {
+  font-size: 0.875rem;
+  color: #9e9999;
+  display: block;
+  text-decoration: none;
+
+  padding: 14px 20px;
+}
+
+.side-navbar-bottom a:hover {
+  background-color: #edf7ed;
+}
+
+.side-navbar-bottom a.active {
+  background-color: #edf7ed;
+  color: #00adee;
+  border-right: 2px solid #c64a9c;
+}
+
+.c-dashboard-content {
+  margin-left: 30px;
+}
+
+.c-dashboard-content-top .carousel-inner {
+  height: 280px;
+  border-radius: 12px;
+}
+
+.c-dashboard-content-top .carousel-indicators li {
+  background: #f3f3f3;
+}
+
+.c-dashboard-tabs {
+  border-radius: 12px;
+  border: 1px solid #e1e1e1;
+  margin-top: 20px;
+}
+
+.c-dashboard-tabs .nav-tabs,
+.c-rewards-tabs .nav-tabs {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.c-dashboard-tabs .nav-tabs {
+  border-bottom: transparent;
+}
+
+.c-dashboard-tabs .nav-tabs .nav-item,
+.c-rewards-tabs .nav-tabs .nav-item {
+  margin: 0 40px 0 30px;
+}
+
+.c-dashboard-tabs .nav-tabs .nav-item.show .nav-link,
+.c-dashboard-tabs .nav-tabs .nav-link.active,
+.c-rewards-tabs .nav-tabs .nav-item.show .nav-link,
+.c-rewards-tabs .nav-tabs .nav-link.active {
+  color: #c64a9c;
+  background-color: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 2px solid #c64a9c;
+  border-color: #c64a9c;
+  border-radius: 0;
+  padding: 0.5rem 0;
+}
+
+.c-dashboard-tabs .nav-tabs .nav-link,
+.c-rewards-tabs .nav-tabs .nav-link {
+  border: transparent;
+}
+
+.c-dashboard-tabs .nav-link,
+.c-rewards-tabs .nav-link {
+  padding: 0.5rem 0;
+}
+
+.c-dashboard-tabs .nav-tabs .nav-item a,
+.c-rewards-tabs .nav-tabs .nav-item a {
+  color: #c4c4c4;
+}
+
+.c-dashboard-tabs .nav-tabs .nav-link:hover,
+.c-rewards-tabs .nav-tabs .nav-link:hover {
+  color: #c64a9c;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #dfdbdb;
+  border-bottom: 1px solid #dfdbdb;
+}
+
+.tab-header h4 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #585858;
+  margin: 0;
+}
+
+.tab-header a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #46af45;
+  text-decoration: underline;
+}
+
+.c-dashboard-tabs .table {
+  margin-bottom: 0;
+}
+
+.c-dashboard-tabs .table-striped tbody tr:nth-of-type(even) {
+  background-color: #f1eeee;
+}
+
+.c-dashboard-tabs .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.c-dashboard-tabs .table thead th {
+  color: #1e1a33;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: transparent;
+}
+
+.c-dashboard-tabs .table td,
+.c-dashboard-tabs .table th {
+  padding: 0.65rem;
+  vertical-align: middle;
+}
+.c-dashboard-tabs .table td {
+  border-top: 1px solid #dfdbdb;
+}
+
+.c-dashboard-tabs .table th {
+  border-top: transparent;
+}
+
+.c-dashboard-tabs .table td {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #1e1a33;
+}
+
+.view-btn {
+  border-radius: 50px;
+  border: 2px solid #46af45;
+  color: #46af45;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.c-dashboard-tabs .table td:last-child,
+.c-dashboard-tabs .table th:last-child {
+  text-align: right;
+}
+/* Navbar left side css */
+.nav-d-link {
+  background: #c64a9c;
+  border-radius: 20px;
+  color: #ffffff !important;
+  padding: 0px 8px;
+}
+
+.nav-d-letter {
+  font-size: 0.95rem;
+}
+
+.nav-brand-dorothy {
+  color: #f2efef;
+  font-size: 0.875rem;
+  /* margin-right: 20px; */
+}
+
+.badge-danger {
+  font-size: 0.75rem;
+  font-weight: 100;
+  color: #fff;
+  background-color: #dc3545;
+  padding: 5px;
+  position: relative;
+  border-radius: 50px;
+  top: -10px;
+  left: -8px;
+}
+
+/* CSS for Auto Mechanism dashboard */
+
+.nav-plus-Link {
+  background: #ff1053;
+  border-radius: 20px;
+  color: #978e8e;
+  padding: 0px 8px;
+}
+
+.side-navbar-bottom .add-nav-link {
+  color: #ff1053;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.add-consu-btn {
+  border-bottom: 1px solid #d2d2d2;
+  padding: 10px 0 10px 13px;
+}
+
+.add-btn-txt {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.add-consu-txt {
+  color: #ff1053;
+  font-size: 0.95rem;
+  font-weight: 500;
+  vertical-align: text-top;
+}
+
+/* CSS for Auto Mechanism product authentication request */
+.decline-btn {
+  color: #cc2351;
+  border: 2px solid #cc2351;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.c-dashboard-tabs .table-my-act {
+  height: 300px;
+}
+
+/* CSS for Auto Mechanism Profile */
+
+.c-dashboard-content .dashboard-profile-container {
+  height: auto;
+}
+
+.card-top-header {
+  background: #4b4ccc !important;
+}
+
+/* CSS for consumer Back Table */
+.activity-row-txt {
+  margin: 10px 0px 0px 5px;
+  justify-content: space-between;
+}
+
+.back-arrow-btn-sign {
+  margin: 38px 0px 0px -5px;
+}
+
+.back-arrow-btn-div {
+  margin: 5px 0px 0px 0px;
+}
+
+.shadow-container {
+  box-shadow: 0px 20px 80px #00000029;
+}
+
+.back-arrow-btn-sign button {
+  color: #1e1a33;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.activity-row-txt select {
+  padding: 0px 15px 0px 15px;
+  margin: -5px 0px 0px 4px;
+  height: 25px;
+}
+
+.all-act-txt,
+.num-row-txt {
+  color: #010000;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.num-row-txt option {
+  color: #010000;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+/* CSS for AutoMechBackTable */
+.c-dashboard-tabs table .done-auth-status {
+  color: #46af45;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.c-dashboard-tabs table .decline-auth-status {
+  color: #c64a9c;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* CSS for auto mechanism my consumers */
+
+.dot-styling i {
+  font-size: 1.2rem;
+  margin-right: 20px;
+}
+
+.c-dashboard-tabs .top-head-styling th {
+  color: #7a7a7a !important;
+}
+
+/* .table-my-act {
+  height: 300px;
+} */
+
+.upload-icon-img {
+  height: 20px;
+  width: 30px;
+  margin-top: -8px;
+}
+
+.table-dashboard-content {
+  margin-right: 15px;
+}
+
+/* CSS for Auto Mech All Consumers Data */
+.con-details-bg {
+  box-shadow: 0 0 12px #ccc;
+  padding: 10px;
+}
+
+.con-details-bg label {
+  color: #7a7a7a;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.con-add-btn {
+  padding: 16px;
+  text-align: center;
+ /*  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; */
+  box-shadow: 0 0 12px #ccc;
+}
+.rt-border {
+  border-right: 1px solid #ccc;
+}
+
+.con-details-bg h5 {
+  color: #010000;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.con-add-btn button {
+  padding: 8px 20px;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: #00adee;
+  border-radius: 50px;
+}
+
+.con-add-btn button:hover {
+  padding: 8px 20px;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  background: #00adee;
+  border-radius: 50px;
+}
+
+.carousel-inner-part {
+  border-radius: 0px;
+  height: auto;
+  box-shadow: 0px 0px 8px 8px rgb(153 153 153 / 20%);
+}
+
+.bike-vehicles-part {
+  box-shadow: 0 20px 80px #00000029;
+  background: #fef2e8;
+  padding: 10px 20px;
+}
+
+.bike-vehicles-part h4,
+.bike-vehicles-part h3 {
+  color: #f87d22;
+}
+
+.vehicles-carousel .carousel-control-next,
+.vehicles-carousel .carousel-control-prev,
+.vehicles-carousel .carousel-indicators {
+  filter: invert(100%);
+}
+
+.vehicles-carousel .carousel-indicators {
+  left: -400px;
+  bottom: 50px;
+}
+
+.vehicles-carousel .carousel-control-next {
+  left: 450px;
+}
+
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: #ff9800;
+  border-top: none;
+  border-bottom: none;
+}
+
+.edit-details-top-link {
+  position: absolute;
+  margin: 20px 0 0 45%;
+}
+
+.edit-details-top-link a {
+  color: #2ac4ea;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: underline;
+}

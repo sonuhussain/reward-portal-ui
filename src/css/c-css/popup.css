@@ -1,0 +1,675 @@
+/* Pop-up Modal CSS Start here */
+.verify-modal {
+  text-align: center;
+}
+
+.verify-modal .modal-header,
+.vehicle-pop-up .modal-header {
+  border-bottom: 0;
+}
+
+.modal-content {
+  border: 0;
+}
+.verify-modal .modal-header .close,
+.congarts-modal .modal-header .close,
+.re-details-modal .modal-header .close {
+  font-size: 2.5rem;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: #fff;
+  border-radius: 40px;
+  opacity: 1 !important;
+  border: 1px solid #bdbdbd;
+  padding: 0 0.5rem;
+}
+
+.vehicle-pop-up .modal-content .close {
+  font-size: 2.5rem;
+  position: absolute;
+  top: -21px;
+  right: -21px;
+  background: #fff;
+  border-radius: 40px;
+  opacity: 1 !important;
+  border: 1px solid #bdbdbd;
+  padding: 0 0.5rem;
+  z-index: 99;
+}
+
+.verify-modal .modal-header button:focus,
+.congarts-modal .modal-header button:focus,
+.re-details-modal .modal-header button:focus,
+.vehicle-pop-up .modal-content button:focus,
+.banner-carousel .get-start-btn button:focus {
+  outline: none;
+}
+
+.vehicle-pop-up .modal-body {
+  padding: 0;
+}
+
+.verify-modal h2 {
+  color: #1e1a33;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.verify-modal h3 {
+  color: #585858;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.verify-modal p {
+  color: #585858;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.mob-num {
+  color: #00adee;
+}
+
+.code-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 20px 0 20px 0;
+  list-style: none;
+}
+
+.code-item {
+  padding: 18px;
+  width: 200px;
+}
+
+.code-item .form-control {
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+  border-bottom: 1px solid;
+  border-right: none;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 0;
+}
+
+.verify-btn {
+  font-size: 1rem;
+  color: #ffffff;
+  background: #46af45;
+  margin-bottom: 10px;
+  padding: 8px 80px;
+  border-radius: 50px;
+}
+
+.pop-up-err-msg {
+  font-size: smaller !important;
+  color: red !important;
+  margin: 0 0 10px 0;
+}
+
+.resend-text a {
+  text-decoration: underline;
+}
+
+/*Congarts reward Pop-up CSS starts here */
+.congarts-modal .modal-body {
+  padding: 0;
+  position: relative;
+  top: -33px;
+}
+
+.congarts-modal .modal-header {
+  z-index: 9;
+  border: 0;
+}
+
+.top-congrats-pop-up {
+  position: relative;
+}
+
+.top-cong-txt {
+  text-align: center;
+  position: absolute;
+  top: 37%;
+  left: 32%;
+}
+.top-cong-txt h2 {
+  color: #ffffff;
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+.top-cong-txt p {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.bottom-congrats-pop-up {
+  padding: 20px 180px;
+}
+
+.popup-reward-details {
+  color: #0a0a0a;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.bottom-congrats-pop-up h4,
+.how-to-use h4 {
+  color: #484747;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.bottom-congrats-pop-up ul,
+.cong-offer-details ul,
+.re-details-modal .re-details-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-congrats-pop-up li,
+.cong-offer-details li {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.re-details-modal .re-details-content li {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.bottom-congrats-pop-up li {
+  color: #9e9999;
+  margin-bottom: 10px;
+}
+.cong-offer-details li,
+.how-to-use li,
+.re-details-modal .re-details-content li {
+  color: #0a0a0a;
+  margin-bottom: 10px;
+}
+.bottom-congrats-pop-up ul li::before,
+.cong-offer-details ul li::before,
+.re-details-modal .re-details-content ul li::before {
+  content: "-";
+  padding-right: 8px;
+}
+
+.cong-offer-code-content {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.cong-offer-code-content h4 {
+  color: #0a0a0a;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.cong-offer-code-content .cong-offer-code {
+  color: #0a0a0a;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.cong-offer-details {
+  color: #0a0a0a;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.how-to-use {
+  margin-top: 20px;
+}
+.how-to-use ol {
+  padding-left: 16px;
+}
+
+.bottom-congrats-pop-up a {
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
+/* CSS for Reward details pop up */
+.re-details-modal .modal-body {
+  padding: 0;
+}
+
+.re-details-modal .re-details-content {
+  padding: 20px 40px 30px 40px;
+}
+
+.re-details-modal .modal-content {
+  border-radius: 12px;
+}
+.re-details-modal .modal-header h3 {
+  margin: 0;
+  font-size: 1.563rem;
+  font-weight: bold;
+}
+
+.re-details-content p {
+  font-size: 1.875rem;
+  color: #c64a9c;
+  font-weight: 500;
+}
+
+.re-details-content h4 {
+  color: #00adee;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.claim-pts-btn {
+  color: white;
+  background: #00adee;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 0 0 12px 12px;
+}
+
+/* CSS start for claim pop-up */
+.claim-modal .modal-body {
+  padding: 0;
+}
+.claim-modal .claim-content {
+  text-align: center;
+  padding: 1.2rem 0 0 0;
+}
+
+.claim-modal .claim-content h5 {
+  color: #0a0a0a;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.claim-modal .claim-content p {
+  color: #0a0a0a;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0 10px;
+}
+.c-btn-container {
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+}
+
+.c-btn-container .btn {
+  font-size: 0.875rem;
+  font-weight: bold;
+  width: 200px;
+  padding: 10px 0;
+}
+
+.c-btn-container .btn:first-child {
+  border-right: 1px solid #ccc;
+}
+.c-btn-container .btn:last-child {
+  color: #1742ef;
+}
+
+.purple-c {
+  color: #362eb1;
+}
+
+/* CSS for Error Pop-up */
+
+.error-modal .sad-imoji,
+.s-incorrect-otp,
+.trying-container-btn {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.s-incorrect-otp {
+  color: #1e1a33;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.error-modal .trying-container-btn {
+  margin: 40px;
+}
+.trying-btn {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #00adee;
+  padding: 5px 80px;
+  border-radius: 50px;
+}
+
+/* CSS for Product Authentication pop-up */
+.product-pop-up-input-box {
+  padding: 40px;
+}
+
+.product-pop-up-input-box textarea {
+  height: 200px;
+  padding: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.sub-btn-container {
+  text-align: center;
+  margin: -5px 0 20px;
+}
+.sub-btn-container button {
+  background: #1dcaa5;
+  padding: 5px 50px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.pro-auth-header {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.pro-auth-header h2 {
+  font-size: 1.563rem;
+  font-weight: 600;
+  color: #1e1a33;
+  margin-inline: auto;
+}
+/* CSS for product authentication code pop-up */
+
+.product-auth-code-txt {
+  text-align: center;
+}
+.product-auth-code-txt h4 {
+  font-size: 1.563rem;
+  font-weight: 500;
+  color: #1e1a33;
+  margin-top: 20px;
+}
+
+.product-auth-code-txt h2 {
+  font-size: 2.375rem;
+  font-weight: 600;
+  color: #03c88c;
+}
+
+.product-auth-code-txt p {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1e1a33;
+  margin-top: 20px;
+}
+
+.pro-auth-code-header {
+  font-size: 1.563rem;
+  font-weight: 500;
+  color: #1e1a33;
+  margin: 0 0px 0 77px;
+}
+
+/* CSS for Success Auth Pop-Up */
+
+.succ-auth-txt .suc-auth-thumb-img {
+  padding: 20px;
+}
+
+.succ-auth-txt .suc-auth-thumb-img img {
+  background: #34a853;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.succ-auth-txt {
+  text-align: center;
+  padding: 30px;
+}
+
+.succ-auth-txt .succ-purchase-txt {
+  color: #1e1a33;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.succ-auth-txt .succ-earn-pts-txt {
+  color: #00adee;
+  font-size: 1.063rem;
+  font-weight: 500;
+  margin: 0 0 -8px 0px;
+}
+
+.succ-auth-txt h2 {
+  color: #00adee;
+  font-size: 2.438rem;
+  font-weight: 500;
+  margin: 2px 0 0 0;
+}
+
+.succ-btn-container {
+  padding: 30px;
+}
+.succ-btn-container button {
+  background: #fff;
+  border: 1px solid #1e1a33;
+  color: #1e1a33;
+}
+
+/* CSS for Activity details pop-up */
+
+.activity-dtl-txt {
+  padding: 30px;
+}
+
+.activity-detail-header {
+  color: #1e1a33;
+  font-size: 1.563rem;
+  font-weight: bold;
+  margin: 0 0 -8px 15px;
+}
+
+.activity-dtl-txt h5 {
+  color: #1e1a33;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.activity-dtl-txt h2 {
+  color: #c64a9c;
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.activity-dtl-txt h3 {
+  color: #00adee;
+  font-size: 1.563rem;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.activity-dtl-txt p {
+  color: #1e1a33;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+/* CSS for Product Authentication verification pop-up */
+
+.oil-bottle-img {
+  background-color: #00adee;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.resend-code-txt {
+  color: #1dcaa5;
+}
+.oil-bottle-img img {
+  height: 75px;
+}
+.code-box-auth-ver {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 58px;
+  margin: -20px 0 20px 0;
+  list-style: none;
+}
+
+.modal-body .product-auth-ver-header {
+  font-size: 2.125rem;
+  color: #1e1a33;
+  font-weight: 600;
+}
+
+.product-ver-txt h5 {
+  font-size: 1.125rem;
+  color: #1e1a33;
+  font-weight: 600;
+}
+
+.resend-auth-text {
+  padding: 20px 0px 0px 0px;
+}
+
+.product-ver-txt p {
+  font-size: 0.875rem;
+  color: #585858;
+}
+.product-ver-btn-container button {
+  border: 1px solid #1e1a33;
+  background: #ffffff;
+  color: #1e1a33;
+}
+
+/* CSS for MyVehicles3PopUp page*/
+.my-vehicles-container {
+  padding: 20px 0 0px 0px;
+}
+
+.my-vehicles-container .vehicles-l-container {
+  background: white;
+  padding: 100px 0px 0px 0px;
+}
+.vehicles-car-image img {
+  position: absolute;
+  right: 0;
+}
+
+.vehicles-header {
+  column-span: all;
+}
+
+.vehicles-header button {
+  margin: 0px -16px 0px 0px;
+  background: #ffffff;
+  opacity: 100%;
+  padding: 5px 8px;
+  margin: -9px -30px;
+  border-radius: 50px;
+}
+
+.vehicles-honda-txt h2 {
+  color: #394cd3;
+  font-size: 1.625rem;
+  font-weight: 500;
+}
+
+.vehicles-honda-txt h4 {
+  color: #c64a9c;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.vehicles-honda-txt h5 {
+  color: #585858;
+  font-size: 0.938rem;
+  font-weight: 600;
+  margin: 30px 0 30px 0;
+}
+
+.vehicles-honda-txt h5 b {
+  color: #1e1a33;
+  font-size: 0.938rem;
+  font-weight: 600;
+}
+
+.vehicles-honda-txt p {
+  color: #585858;
+  font-size: 0.813rem;
+  font-weight: 300;
+}
+
+.vehicles-honda-txt p span {
+  color: #1e1a33;
+  font-size: 0.813rem;
+  font-weight: 300;
+}
+
+.r-vehicles-part {
+  box-shadow: 0 20px 80px #00000029;
+  background: #edf7ed;
+
+  padding: 10px 20px;
+}
+
+.r-vehicles-part h4 {
+  color: #46af45;
+  font-size: 0.938rem;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+
+.r-vehicles-part h3 {
+  color: #46af45;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.r-vehicles-part .vehicle-right-lbl-txt {
+  color: #1e1a33;
+  font-size: 0.813rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.r-vehicles-part .vehicle-right-val-txt {
+  color: #1e1a33;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.modal-content-div {
+  background: white;
+}
+
+.vehicles-row-content {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -80px;
+  margin-left: 0px;
+}
+
+/* CSS for Error Mobile and Email pop-up  */
+
+.cost-to-reward-txt {
+  color: #c64a9c;
+  font-size: 1.125rem;
+  font-weight: 500;
+}

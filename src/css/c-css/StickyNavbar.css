@@ -1,0 +1,28 @@
+.top-nav .navbar {
+  padding: 1rem;
+  transition: 0.6s;
+}
+
+nav.Sticky {
+  padding: 10px 100px !important;
+  background-color: #fff;
+  opacity: 0.9;
+  box-shadow: 3px 8px 8px rgb(0 0 0 / 8%);
+  -webkit-box-shadow: 3px 8px 8px rgb(0 0 0 / 8%);
+}
+
+nav.Sticky .navbar-brand h2,
+nav.Sticky .navbar-nav .nav-item a,
+nav.Sticky .navbar-nav .active > .nav-link,
+nav.Sticky .navbar-nav .nav-link.active,
+nav.Sticky .navbar-nav .nav-link.show,
+nav.Sticky .navbar-nav .show > .nav-link,
+nav.Sticky .navbar-nav .nav-link:focus,
+nav.Sticky .navbar-nav .nav-link:hover {
+  color: #000 !important;
+}
+
+nav.Sticky .btn-outline-success {
+  color: #000;
+  border-color: #000;
+}

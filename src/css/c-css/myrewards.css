@@ -1,0 +1,93 @@
+.h-scrolling-tab {
+  margin: 15px 0 30px 0;
+}
+
+.h-scrolling-tab .s-tab-btn {
+  color: #21253f;
+  border-radius: 50px;
+  border: 1px solid #9e9999;
+  margin-right: 30px;
+  padding: 3px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #f8f5f5;
+}
+
+.h-scrolling-tab .s-tab-btn.active {
+  color: #00adee !important;
+  border: 1px solid #00adee !important;
+  background: #ffffff;
+}
+
+.gift-card-categories .card {
+  border: transparent;
+  margin-bottom: 20px;
+}
+
+.gift-card-categories .card img {
+  border-radius: 20px;
+}
+
+.gift-card-categories .card-img-overlay {
+  transition: 0.5s ease;
+  background: #000000;
+  background: linear-gradient(transparent, rgb(5 5 5 / 90%));
+
+  background: -webkit-linear-gradient(transparent, rgba(5, 5, 5, 0.8));
+
+  overflow: hidden;
+  border-radius: 25px;
+  /* padding: 0.85rem ; */
+}
+
+.gift-card-categories .card-img-overlay .card-title {
+  font-size: 1.125rem;
+}
+
+.gift-card-categories .card-img-overlay .card-text {
+  font-size: 0.75rem;
+}
+
+.gift-card-categories .detail-btn {
+  background: #1e1a33;
+  color: #ffffff;
+  font-size: 0.875rem;
+  border-radius: 40px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.gift-card-categories .claim-btn {
+  background: #ffffff;
+  color: #21253f;
+  font-size: 0.875rem;
+  border-radius: 40px;
+  padding: 5px 15px;
+}
+
+.redeem-history-content {
+  background: #ffffff;
+  /* -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777; */
+  margin-top: 20px;
+}
+
+.redeem-history-content .table th {
+  color: #0a0a0a;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.redeem-history-content .table td {
+  color: #0a0a0a;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.redeem-history-content .table .reward-valid-date {
+  color: #9e9999;
+  font-size: 0.875rem;
+}
+
+/* CSS starts for claim rewards  */

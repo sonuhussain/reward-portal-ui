@@ -1,0 +1,170 @@
+.form-bg.container-fluid {
+  background: linear-gradient(to right, #394cd3, #824bb6, #c64a9c);
+  width: 100%;
+  height: 100vh;
+}
+
+.f-center .container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.form-container {
+  border-radius: 10px;
+  background: white;
+}
+
+.left-form-bg {
+  background-color: #b1c9f6;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 80px 20px;
+}
+
+.form-imagetop {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.form-imagebottom {
+  position: relative;
+  bottom: -80px;
+  left: -20px;
+}
+
+.form-imagebottom img {
+  border-bottom-left-radius: 12px;
+}
+
+.form-imagetop img {
+  border-top-right-radius: 12px;
+}
+
+.form-imagecenter {
+  position: relative;
+  bottom: -199px;
+  z-index: 99;
+  left: -28px;
+}
+
+.form-image,
+.form-imagecenter {
+  text-align: center;
+}
+
+.form-image img,
+.form-imagecenter img {
+  width: 350px;
+}
+/* .formbottomimage img {
+  position: relative;
+  bottom: -80px;
+} */
+
+.right-side-form {
+  padding: 20px;
+}
+
+.form-control {
+  width: 100%;
+  /*  margin-bottom: 5%; */
+  color: #0f0f0f;
+  font-size: 0.875rem;
+}
+
+::placeholder {
+  color: #c4bfbf;
+  font-size: smaller;
+}
+
+.right-side-form label {
+  color: #585858;
+  font-size: small;
+  font-weight: 500;
+}
+
+.form-title {
+  color: #1e1a33;
+  font-size: large;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-sub-title {
+  color: #585858;
+  font-size: small;
+  font-weight: 600;
+}
+
+.top-form-link {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-form-link a {
+  font-size: small;
+  margin-bottom: 50px;
+  color: #394cd3 !important;
+  text-decoration: underline;
+}
+
+.form_btn {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.can-btn {
+  border: 1px solid #1e1a33;
+  background: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: small;
+}
+
+.per-btn {
+  background: #c64a9c;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+  font-size: small;
+}
+
+/* CSS for Consumer Registeration Preview */
+
+.left-pre-form-bg {
+  background-color: #b1c9f6;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+.form-pre-image img {
+  margin: 168px 0 0 93px;
+}
+
+/* Consumer Details Login page CSS Start here */
+.login-form-details {
+  margin: 200px 0 0 0px;
+}
+
+/* Add vehicles page CSS Start here */
+
+.table-striped .vehicles-reg-place-txt {
+  font-size: 0.78rem;
+}
+
+.auto-per-basic-details .card-left-header {
+  background: #c64a9c;
+}
+
+.auto-per-profile-details .card-right-header {
+  background: #4b4ccc;
+}
+
+.table-stripe-color tr:nth-child(even) {
+  background: #eaf0fb;
+}

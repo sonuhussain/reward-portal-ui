@@ -1,0 +1,45 @@
+.reg-now-content {
+  padding: 0 150px;
+}
+
+.reg-now-content .card {
+  background: #b1c9f6;
+  border-radius: 12px;
+  border: 0;
+}
+
+.reg-now-content .card img {
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.reg-now-content .card-left-image img {
+  margin-top: 76px;
+}
+
+.reg-now-content .card-footer .btn {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.reg-now-content .card-footer {
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.reg-now-content .card-footer.card-l {
+  background: #394cd3;
+}
+
+.reg-now-content .card-footer.card-r {
+  background: #c64a9c;
+}
+
+.reg-now-content .top-reg-link a {
+  font-size: small;
+  color: #394cd3 !important;
+  text-decoration: underline;
+}

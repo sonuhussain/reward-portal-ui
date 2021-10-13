@@ -1,0 +1,83 @@
+.auto-pre-container {
+  width: 100%;
+  padding: 40px 20px 20px 20px;
+}
+
+.auto-pre-container {
+  width: 100%;
+  padding: 40px 20px 20px 20px;
+}
+
+.auto-pre-container .card {
+  border-radius: 12px;
+}
+
+.auto-pre-container .card-header {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.last-row-left-side {
+  height: 176px;
+}
+.card-right {
+  background: #c64a9c;
+}
+
+.card-left {
+  background: #4b4ccc;
+}
+.auto-pre-container .card-header a {
+  color: #fff;
+  font-size: 0.85rem;
+  align-self: center;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.auto-pre-container .card-body {
+  padding: 0;
+}
+
+.auto-pre-container .card-body table {
+  margin-bottom: 0;
+}
+
+.auto-reg-repair {
+  margin: 9px 0 0 0;
+  padding: 50px 0px;
+}
+/* CSS for Automobile edit profile */
+.automob-edit-profile {
+  margin: 63px 0 0 0;
+}
+
+/* CSS for Edit Basic Details Automobile */
+
+.active-color-txt {
+  background: #c64a9c !important;
+}
+
+/* CSS for Auto Mobile Registration (FormImage3) */
+.form-image-bottom-lf img {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-bottom-left-radius: 12px;
+}
+
+.form-image-bottom-rf img {
+  position: absolute;
+  bottom: 8px;
+  right: 10px;
+  border-bottom-right-radius: 12px;
+}
+
+.form-imagecenter2 img {
+  height: 400px;
+}

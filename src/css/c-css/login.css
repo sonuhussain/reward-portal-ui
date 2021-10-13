@@ -1,0 +1,151 @@
+.circle_container {
+  position: absolute;
+  border: 270px solid transparent;
+  border-color: #394cd3;
+  border-radius: 100%;
+  opacity: 0.23;
+  right: 220px;
+  top: 80px;
+}
+
+.login-form {
+  padding: 30px;
+}
+
+.login-form h2 {
+  font-size: 1.563rem;
+  color: #1e1a33;
+  font-weight: bold;
+  margin: 0;
+}
+
+.loyal-txt {
+  color: #c64a9c;
+}
+
+.login-form h5 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #394cd3;
+}
+
+.login-form-container {
+  margin-top: 20px;
+}
+
+.login-form-container label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #585858;
+}
+
+.rem-txt,
+.forgot-txt a {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #484747;
+  vertical-align: middle;
+}
+.forgot-txt a {
+  float: right;
+}
+
+.reg-link {
+  text-align: center;
+}
+
+.reg-link p {
+  margin-bottom: 0;
+  color: #c64a9c;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.reg-link a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #394cd3;
+  text-decoration: underline;
+}
+
+.login-btn {
+  font-size: 1rem;
+  color: #ffffff;
+  background: #46af45;
+  margin-bottom: 10px;
+  padding: 5px 120px;
+  border-radius: 50px;
+}
+
+.login-btn-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home-btn,
+.reg-now-content .home-btn {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.home-btn {
+  color: #ffffff;
+}
+
+.reg-now-content .home-btn {
+  color: #1e1a33;
+}
+
+.reg-now-content .home-btn:hover {
+  color: #1e1a33;
+}
+
+.home-btn:hover {
+  color: #ffffff;
+}
+
+.btn-image,
+.reg-now-content .btn-image {
+  background-repeat: no-repeat;
+  padding-right: 20px;
+}
+
+.btn-image {
+  background-image: url("../../images/back-arrow.svg");
+}
+
+.reg-now-content .btn-image {
+  background-image: url("../../images/back-arrow-black.svg");
+}
+
+.back-arrow-btn-sign .btn-image {
+  background-image: url("../../images/back-arrow-black.svg");
+}
+
+.triangle_container {
+  background-image: url("../../images/triangle-bg.svg");
+  background-repeat: no-repeat;
+  position: fixed;
+  right: -580px;
+  top: 0;
+  z-index: 0;
+  height: 100%;
+  display: block;
+  width: 100%;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+/* .triangle_container {
+  position: absolute;
+  margin-left: 45%;
+  height: 100%;
+  width: 0%;
+  border: 328px solid transparent;
+  border-left-color: purple;
+  opacity: 0.14;
+} */

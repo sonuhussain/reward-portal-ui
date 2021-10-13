@@ -1,0 +1,25 @@
+.right-side-form .table-striped tbody tr:nth-of-type(even) {
+  background-color: #eaf0fb;
+}
+
+.right-side-form .table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f5f5f5;
+}
+
+.right-side-form .table td,
+.table th {
+  border-top: none;
+}
+
+.perview-form-l-txt {
+  color: #585858;
+  font-size: small;
+  font-weight: 600;
+  width: 250px;
+}
+
+.perview-form-r-txt {
+  color: #000000;
+  font-size: 0.775rem;
+  font-weight: 600;
+}

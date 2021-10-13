@@ -1,0 +1,22 @@
+.register-product-container {
+  padding: 20px 35px;
+}
+
+.register-product-container h2 {
+  font-size: 1.875rem;
+  color: #1e1a33;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.register-product-container p {
+  color: #585858;
+  font-weight: bold;
+  font-size: 1.125;
+}
+
+.register-product-container label {
+  color: #585858;
+  font-size: 1rem;
+  font-weight: 500;
+}
